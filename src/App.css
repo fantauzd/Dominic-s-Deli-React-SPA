@@ -1,0 +1,65 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.App-nav a {
+  padding: 0px 20px 5px 20px;
+  background-color:rgb(17, 22, 90);
+  text-decoration:none;
+  color:rgb(227, 221, 47);
+  line-height:1;
+  vertical-align:middle;
+  border-right: 2px solid rgb(236, 236, 113);
+  font-size:1.3em;
+  font-weight:bold;
+  border-radius:3px;
+}
+
+.App-nav a:hover {
+  color:rgb(27, 17, 100);
+  background-color:rgb(212, 225, 70);
+}
+
+table {
+  background: #012B39;
+  border-radius: 0.25em;
+  border-collapse: collapse;
+  margin: 1em;
+}
+th {
+  border-bottom: 1px solid #364043;
+  color: #E2B842;
+  font-size: 0.85em;
+  font-weight: 600;
+  padding: 0.5em 1em;
+  text-align: left;
+}
+td {
+  color: #fff;
+  font-weight: 400;
+  padding: 0.65em 1em;
+}
+.disabled td {
+  color: #4F5F64;
+}
+tr {
+  transition: background 0.25s ease;
+}
+tr:hover {
+  background: #014055;
+}
